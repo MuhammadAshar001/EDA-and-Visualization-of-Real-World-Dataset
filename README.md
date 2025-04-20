@@ -5,23 +5,23 @@ This project presents an Exploratory Data Analysis (EDA) of the Titanic Dataset 
 
 ---
 
-## 📌 Task Overview
+## Task Overview
 
 **Objective:**  
 Perform EDA and visualization on a real-world dataset (Titanic) to uncover meaningful insights and prepare it for further analysis or modeling.
 
 ---
 
-## 📂 Dataset Used
+## Dataset Used
 
 - **Dataset**: Titanic Dataset (`Titanic-Dataset.csv`)
 - **Source**: Provided with the internship task or publicly available on Kaggle.
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
-### 1. 🔧 Data Cleaning
+### 1. Data Cleaning
 - Handled missing values in:
   - `Age` (imputed with median)
   - `Embarked` (imputed with mode)
@@ -31,21 +31,21 @@ Perform EDA and visualization on a real-world dataset (Titanic) to uncover meani
 
 ---
 
-### 2. 📊 Data Visualization
+### 2. Data Visualization
 
-#### 📌 Categorical Variables (Bar Charts)
+#### Categorical Variables (Bar Charts)
 - `Sex`, `Pclass`, `Embarked`, `Survived`
 
-#### 📌 Numerical Variables (Histograms)
+#### Numerical Variables (Histograms)
 - `Age`, `Fare`, `SibSp`, `Parch`
 
-#### 📌 Correlation Heatmap
+#### Correlation Heatmap
 - Computed Pearson correlations for all numeric features.
 - Visualized using a heatmap with annotations.
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - Majority of passengers were in **3rd class**, and most were **male**.
 - **Southampton** was the most common embarkation port.
@@ -58,7 +58,7 @@ Perform EDA and visualization on a real-world dataset (Titanic) to uncover meani
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Pandas**
@@ -68,5 +68,34 @@ Perform EDA and visualization on a real-world dataset (Titanic) to uncover meani
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+├── Titanic-Dataset.csv
+├── task1.ipynb
+├── README.md
+
+## How to Run
+
+1. **Clone the Repository**
+
+   git clone https://github.com/your-username/titanic-eda.git
+   cd titanic-eda
+   
+3. **Install Required Libraries**
+
+   pip install pandas matplotlib seaborn
+   pip install jupyter
+
+4. **Run the Analysis**
+   Open the file: task1.ipynb
+   Run each cell to perform the analysis step-by-step.
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your suggested improvements.
+
+## License
+This project is open-source and available under the MIT License.
+
+   
+
 
