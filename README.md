@@ -1,5 +1,4 @@
-# EDA-and-Visualization-of-Real-World-Dataset
-## Titanic Dataset EDA & Visualization 
+# Titanic Dataset EDA & Visualization 
 
 This project presents an Exploratory Data Analysis (EDA) of the Titanic Dataset as part of Task 1 of the Data Science Internship. The main goal was to clean the data, analyze distributions, identify outliers, and visualize insights from both categorical and numerical features.
 
