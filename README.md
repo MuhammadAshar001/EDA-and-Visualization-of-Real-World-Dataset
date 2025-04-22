@@ -68,16 +68,11 @@ Perform EDA and visualization on a real-world dataset (Titanic) to uncover meani
 
 ---
 
-## Project Structure
-
-├── Titanic-Dataset.csv
-├── task1.ipynb
-├── README.md
-
 ## How to Run
 
 1. **Clone the Repository**
 
+   ```bash
    git clone https://github.com/your-username/titanic-eda.git
    cd titanic-eda
    
@@ -87,8 +82,9 @@ Perform EDA and visualization on a real-world dataset (Titanic) to uncover meani
    pip install jupyter
 
 4. **Run the Analysis**
-   Open the file: task1.ipynb
-   Run each cell to perform the analysis step-by-step.
+   
+   - Open the file: task1.ipynb
+   - Run each cell to perform the analysis step-by-step.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your suggested improvements.
